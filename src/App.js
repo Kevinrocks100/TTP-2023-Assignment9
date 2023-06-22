@@ -40,7 +40,7 @@ const App = (props) => {
         <nav>
           <ul>
             <li>
-              <Link to="/">Home</Link>
+              <Link to="*/">Home</Link>
             </li>
             <li>
               <Link to="/userProfile">User Profile</Link>
@@ -60,7 +60,7 @@ const App = (props) => {
         {/* rounters */}
         <Routes>
           <Route 
-            exact path="/*" 
+            exact path="*/" 
             element={<Home accountBalance={accountBalance} debit={debit} credit={credit} />}
            />
           <Route 
