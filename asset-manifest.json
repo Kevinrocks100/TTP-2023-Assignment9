@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/TTP-2023-Assignment9/static/css/main.073c9b0a.css",
+    "main.js": "/TTP-2023-Assignment9/static/js/main.fea863e8.js",
+    "static/js/787.40bd3877.chunk.js": "/TTP-2023-Assignment9/static/js/787.40bd3877.chunk.js",
+    "index.html": "/TTP-2023-Assignment9/index.html",
+    "main.073c9b0a.css.map": "/TTP-2023-Assignment9/static/css/main.073c9b0a.css.map",
+    "main.fea863e8.js.map": "/TTP-2023-Assignment9/static/js/main.fea863e8.js.map",
+    "787.40bd3877.chunk.js.map": "/TTP-2023-Assignment9/static/js/787.40bd3877.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.fea863e8.js"
+  ]
+}
