@@ -21,7 +21,7 @@ function Credits(props) {
     return (
         <div>
             <h1>Credits</h1>
-            <Link to="/">Home</Link>
+            <Link to="/TTP-2023-Assignment9">Home</Link>
             <br />
             <Link to="/userProfile">User Profile</Link>
             <form onSubmit={addCredit}>

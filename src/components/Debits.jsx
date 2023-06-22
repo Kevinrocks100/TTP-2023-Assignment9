@@ -23,7 +23,7 @@ function Debits(props) {
             <h1>Debits</h1>
             <Link to="/TTP-2023-Assignment9">Home</Link>
             <br />
-            <Link to="/userProfile">User Profile</Link>
+            <Link to="/TTP-2023-Assignment9/userProfile">User Profile</Link>
             <form onSubmit={addDebit}>
                 <label for="debitDescription">Debit Description</label><br />
                 <input type="text" id="debitDescription" name="debitDescription" /><br />
