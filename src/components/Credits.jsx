@@ -23,7 +23,7 @@ function Credits(props) {
             <h1>Credits</h1>
             <Link to="/TTP-2023-Assignment9">Home</Link>
             <br />
-            <Link to="/userProfile">User Profile</Link>
+            <Link to="/TTP-2023-Assignment9/userProfile">User Profile</Link>
             <form onSubmit={addCredit}>
                 <label for="creditDescription">Credit Description</label><br />
                 <input type="text" id="creditDescription" name="creditDescription" /><br />

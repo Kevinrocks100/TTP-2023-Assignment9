@@ -43,7 +43,7 @@ const App = (props) => {
               <Link to="/TTP-2023-Assignment9">Home</Link>
             </li>
             <li>
-              <Link to="/userProfile">User Profile</Link>
+              <Link to="/TTP-2023-Assignment9/userProfile">User Profile</Link>
             </li>
             <li>
               <Link to="/logIn">LogIn</Link>
@@ -64,7 +64,7 @@ const App = (props) => {
             element={<Home accountBalance={accountBalance} debit={debit} credit={credit} />}
            />
           <Route 
-            exact path="/userProfile" 
+            exact path="/TTP-2023-Assignment9/userProfile" 
             element={<UserProfile userName={currentUser.userName} memberSince={currentUser.memberSince} />}
           />
           <Route 

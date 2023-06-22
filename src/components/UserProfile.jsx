@@ -9,7 +9,7 @@ class UserProfile extends Component {
 
           <div>Username: {this.props.userName}</div>
           <div>Member Since: {this.props.memberSince}</div>
-          <Link to="/">Home</Link>
+          <Link to="/TTP-2023-Assignment9">Home</Link>
         </div>
     );
   }
