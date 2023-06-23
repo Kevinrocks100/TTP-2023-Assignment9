@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import axios from 'axios';
 import Container from 'react-bootstrap/Container';
+import { LinkContainer } from 'react-router-bootstrap';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
@@ -86,15 +87,19 @@ const App = (props) => {
     <Router>
       {/* navigation */}
       <Navbar bg="dark" data-bs-theme="dark">
-        <Navbar.Brand href="/TTP-2023-Assignment9">Home</Navbar.Brand>
+        <LinkContainer to="/TTP-2023-Assignment9/"><Navbar.Brand>Home</Navbar.Brand></LinkContainer>
         <Nav className="me-auto">
-          <Nav.Link href="/TTP-2023-Assignment9/debits">Debits</Nav.Link>
-          <Nav.Link href="/TTP-2023-Assignment9/credits">Credits</Nav.Link>
+          <LinkContainer to="/TTP-2023-Assignment9/debits">
+            <Nav.Link>Debits</Nav.Link>
+          </LinkContainer>
+          <LinkContainer to="/TTP-2023-Assignment9/credits">
+            <Nav.Link>Credits</Nav.Link>
+          </LinkContainer>
         </Nav>
         <Navbar.Toggle />
         <Navbar.Collapse className="justify-content-end">
           <Navbar.Text>
-            Signed in as: <a href="/TTP-2023-Assignment9/userProfile">{currentUser.userName}</a>
+            Signed in as: <LinkContainer to="/TTP-2023-Assignment9/userProfile"><a>{currentUser.userName}</a></LinkContainer>
           </Navbar.Text>
         </Navbar.Collapse>
       </Navbar>
