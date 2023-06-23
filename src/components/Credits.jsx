@@ -35,7 +35,7 @@ function Credits(props) {
                 <h2>Transaction History</h2>
                 <ul>
                     {props.creditList.map((credits) => (
-                        <li>{credits.description}{credits.amount}{credits.date}</li>
+                        <li>{credits.description} {credits.amount} {credits.date}</li>
                     ))}
                 </ul>
             </div>

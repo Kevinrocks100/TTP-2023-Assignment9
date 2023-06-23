@@ -32,10 +32,10 @@ function Debits(props) {
                 <input type="submit" value="Add Debit" />
             </form>
             <div>
-                <h2>Numbers:</h2>
+                <h2>Transaction History</h2>
                 <ul>
                     {props.debitList.map((debit) => (
-                        <li>{debit.description}{debit.amount}{debit.date}</li>
+                        <li>{debit.description} {debit.amount} {debit.date}</li>
                     ))}
                 </ul>
             </div>

@@ -2,6 +2,18 @@
   text-align: center;
 }
 
+.home {
+    background-image: url("../public/bankBackground.avif");
+    background-size: 100% 100%;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    height: 91vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
